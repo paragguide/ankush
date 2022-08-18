@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="ProviderTest(failed)">
+    <parameter name="screenshotname" value="Provider"/>
+    <parameter name="filename" value="ProviderLog.html"/>
+    <parameter name="reportname" value="ProviderLog"/>
+    <parameter name="xpathfile" value="providerxpath.properties"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.nethorizonconsultancy.com/provider.aspx"/>
+    <parameter name="key" value="true"/>
+    <classes>
+      <class name="testcases.ProviderLoginTest">
+        <methods>
+          <include name="getexternalxpath"/>
+          <include name="endReport"/>
+          <include name="openBrowser"/>
+          <include name="providerlogin" invocation-numbers="1"/>
+          <include name="createReport"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.ProviderLoginTest -->
+    </classes>
+  </test> <!-- ProviderTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

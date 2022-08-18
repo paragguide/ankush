@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+ 
+  <test name="ProviderTest">
+   <parameter name="reportname" value="ProviderLog" />
+   <parameter name="xpathfile" value="providerxpath.properties" />
+   <parameter name="browser" value="chrome"  />
+   <parameter name="url" value="http://www.nethorizonconsultancy.com/provider.aspx" />
+   <parameter name="screenshotname" value="Provider" />
+   <parameter name="filename" value="ProviderLog.html" />
+   <parameter name="key" value="true" />
+    <classes>
+      <class name="testcases.ProviderLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="SeekerTest">
+   <parameter name="reportname" value="SeekerLog" />
+   <parameter name="xpathfile" value="seekerxpath.properties" />
+   <parameter name="browser" value="chrome"  />
+   <parameter name="url" value="http://www.nethorizonconsultancy.com/Seeker.aspx" />
+   <parameter name="screenshotname" value="Seeker" />
+   <parameter name="filename" value="SeekerLog.html" />
+   <parameter name="key" value="true" />
+    <classes>
+      <class name="testcases.SeekerLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
