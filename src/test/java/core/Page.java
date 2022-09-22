@@ -52,18 +52,18 @@ public class Page
 	  if(browser.equals("firefox"))
 		{
 			// register driver
-		//	System.setProperty("webdriver.gecko.driver", "D:\\browserdrivers\\geckodriver.exe");
-		//	driver = new FirefoxDriver();
+			System.setProperty("webdriver.gecko.driver", "D:\\browserdrivers\\geckodriver.exe");
+			driver = new FirefoxDriver();
 			
-			 capability =	DesiredCapabilities.firefox();
+			// capability =	DesiredCapabilities.firefox();
 		}
 		else if(browser.equals("chrome"))
 		{
 			 // driver register
-		//	System.setProperty("webdriver.chrome.driver","D:\\browserdrivers\\chromedriver.exe");
-		//	driver = new ChromeDriver();
+			System.setProperty("webdriver.chrome.driver","D:\\browserdrivers\\chromedriver.exe");
+			driver = new ChromeDriver();
 			
-			DesiredCapabilities capability= DesiredCapabilities.chrome();
+		//	DesiredCapabilities capability= DesiredCapabilities.chrome();
 
 			try {
 				 driver=new RemoteWebDriver(new URL("http://192.168.1.7:5566/wd/hub"),capability);

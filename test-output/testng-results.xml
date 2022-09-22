@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="0" ignored="0" total="6" passed="3">
+<testng-results skipped="6" failed="0" ignored="0" total="6" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22506" started-at="2022-09-17T14:41:27Z" finished-at="2022-09-17T14:41:49Z">
+  <suite name="Suite" duration-ms="20088" started-at="2022-09-22T15:25:24Z" finished-at="2022-09-22T15:25:44Z">
     <groups>
     </groups>
-    <test name="ProviderTest" duration-ms="1010" started-at="2022-09-17T14:41:27Z" finished-at="2022-09-17T14:41:28Z">
+    <test name="ProviderTest" duration-ms="693" started-at="2022-09-22T15:25:24Z" finished-at="2022-09-22T15:25:25Z">
       <class name="testcases.ProviderLoginTest">
-        <test-method status="SKIP" signature="createReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="createReport" is-config="true" duration-ms="26" started-at="2022-09-17T20:11:27Z" finished-at="2022-09-17T20:11:27Z">
+        <test-method status="SKIP" signature="createReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="createReport" is-config="true" duration-ms="14" started-at="2022-09-22T20:55:24Z" finished-at="2022-09-22T20:55:24Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Skipping tests because resource was not available.
-	at core.Page.createReport(Page.java:126)
+	at core.Page.createReport(Page.java:128)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -56,43 +56,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method status="SKIP" signature="getexternalxpath(java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="getexternalxpath" is-config="true" duration-ms="0" started-at="2022-09-17T20:11:27Z" finished-at="2022-09-17T20:11:27Z">
+        <test-method status="SKIP" signature="getexternalxpath(java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="getexternalxpath" is-config="true" duration-ms="0" started-at="2022-09-22T20:55:24Z" finished-at="2022-09-22T20:55:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getexternalxpath -->
-        <test-method status="SKIP" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="openBrowser" is-config="true" duration-ms="0" started-at="2022-09-17T20:11:28Z" finished-at="2022-09-17T20:11:28Z">
+        <test-method status="SKIP" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="openBrowser" is-config="true" duration-ms="0" started-at="2022-09-22T20:55:25Z" finished-at="2022-09-22T20:55:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="providerlogin" duration-ms="10" started-at="2022-09-17T20:11:28Z" data-provider="logindata" finished-at="2022-09-17T20:11:28Z">
+        <test-method status="SKIP" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="providerlogin" duration-ms="6" started-at="2022-09-22T20:55:25Z" data-provider="logindata" finished-at="2022-09-22T20:55:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- providerlogin -->
-        <test-method status="SKIP" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="openBrowser" is-config="true" duration-ms="0" started-at="2022-09-17T20:11:28Z" finished-at="2022-09-17T20:11:28Z">
+        <test-method status="SKIP" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="openBrowser" is-config="true" duration-ms="0" started-at="2022-09-22T20:55:25Z" finished-at="2022-09-22T20:55:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="providerlogin" duration-ms="0" started-at="2022-09-17T20:11:28Z" data-provider="logindata" finished-at="2022-09-17T20:11:28Z">
+        <test-method status="SKIP" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="providerlogin" duration-ms="0" started-at="2022-09-22T20:55:25Z" data-provider="logindata" finished-at="2022-09-22T20:55:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- providerlogin -->
-        <test-method status="SKIP" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="openBrowser" is-config="true" duration-ms="0" started-at="2022-09-17T20:11:28Z" finished-at="2022-09-17T20:11:28Z">
+        <test-method status="SKIP" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="openBrowser" is-config="true" duration-ms="0" started-at="2022-09-22T20:55:25Z" finished-at="2022-09-22T20:55:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="providerlogin" duration-ms="0" started-at="2022-09-17T20:11:28Z" data-provider="logindata" finished-at="2022-09-17T20:11:28Z">
+        <test-method status="SKIP" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="providerlogin" duration-ms="4" started-at="2022-09-22T20:55:25Z" data-provider="logindata" finished-at="2022-09-22T20:55:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- providerlogin -->
-        <test-method status="SKIP" signature="endReport(java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="endReport" is-config="true" duration-ms="0" started-at="2022-09-17T20:11:28Z" finished-at="2022-09-17T20:11:28Z">
+        <test-method status="SKIP" signature="endReport(java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="endReport" is-config="true" duration-ms="0" started-at="2022-09-22T20:55:25Z" finished-at="2022-09-22T20:55:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- testcases.ProviderLoginTest -->
     </test> <!-- ProviderTest -->
-    <test name="SeekerTest" duration-ms="21337" started-at="2022-09-17T14:41:28Z" finished-at="2022-09-17T14:41:49Z">
+    <test name="SeekerTest" duration-ms="19370" started-at="2022-09-22T15:25:25Z" finished-at="2022-09-22T15:25:44Z">
       <class name="testcases.SeekerLoginTest">
-        <test-method status="PASS" signature="createReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="createReport" is-config="true" duration-ms="417" started-at="2022-09-17T20:11:28Z" finished-at="2022-09-17T20:11:29Z">
+        <test-method status="PASS" signature="createReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="createReport" is-config="true" duration-ms="189" started-at="2022-09-22T20:55:25Z" finished-at="2022-09-22T20:55:25Z">
           <params>
             <param index="0">
               <value>
@@ -108,7 +108,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method status="PASS" signature="getexternalxpath(java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="getexternalxpath" is-config="true" duration-ms="1" started-at="2022-09-17T20:11:29Z" finished-at="2022-09-17T20:11:29Z">
+        <test-method status="PASS" signature="getexternalxpath(java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="getexternalxpath" is-config="true" duration-ms="1" started-at="2022-09-22T20:55:25Z" finished-at="2022-09-22T20:55:25Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getexternalxpath -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="openBrowser" is-config="true" duration-ms="6975" started-at="2022-09-17T20:11:29Z" finished-at="2022-09-17T20:11:36Z">
+        <test-method status="FAIL" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="openBrowser" is-config="true" duration-ms="19095" started-at="2022-09-22T20:55:25Z" finished-at="2022-09-22T20:55:44Z">
           <params>
             <param index="0">
               <value>
@@ -137,130 +137,20 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="seekerlogin" duration-ms="1008" started-at="2022-09-17T20:11:36Z" data-provider="seekerdata" finished-at="2022-09-17T20:11:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aaa]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[aa@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- seekerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="closeBrowser" is-config="true" duration-ms="165" started-at="2022-09-17T20:11:37Z" finished-at="2022-09-17T20:11:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="openBrowser" is-config="true" duration-ms="5610" started-at="2022-09-17T20:11:37Z" finished-at="2022-09-17T20:11:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://www.nethorizonconsultancy.com/Seeker.aspx]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Seeker]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="seekerlogin" duration-ms="534" started-at="2022-09-17T20:11:42Z" data-provider="seekerdata" finished-at="2022-09-17T20:11:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bbb]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bb@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- seekerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="closeBrowser" is-config="true" duration-ms="164" started-at="2022-09-17T20:11:43Z" finished-at="2022-09-17T20:11:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="openBrowser" is-config="true" duration-ms="5228" started-at="2022-09-17T20:11:43Z" finished-at="2022-09-17T20:11:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://www.nethorizonconsultancy.com/Seeker.aspx]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Seeker]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="seekerlogin" duration-ms="452" started-at="2022-09-17T20:11:48Z" data-provider="seekerdata" finished-at="2022-09-17T20:11:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ccc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[cc@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- seekerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="closeBrowser" is-config="true" duration-ms="122" started-at="2022-09-17T20:11:49Z" finished-at="2022-09-17T20:11:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="FAIL" signature="endReport(java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="endReport" is-config="true" duration-ms="626" started-at="2022-09-17T20:11:49Z" finished-at="2022-09-17T20:11:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SeekerLog.html]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NoClassDefFoundError">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[com/sun/mail/util/MailLogger]]>
+              <![CDATA[null value in entry: desiredCapabilities=null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
-	at javax.mail.Session.initLogger(Session.java:261)
-	at javax.mail.Session.<init>(Session.java:245)
-	at javax.mail.Session.getDefaultInstance(Session.java:356)
-	at utility.monitoringMail.sendMail(monitoringMail.java:44)
-	at core.Page.endReport(Page.java:159)
+              <![CDATA[java.lang.NullPointerException: null value in entry: desiredCapabilities=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at core.Page.openBrowser(Page.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -268,9 +158,13 @@
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.afterRun(TestRunner.java:958)
-	at org.testng.TestRunner.run(TestRunner.java:606)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
@@ -284,15 +178,165 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
-	at java.net.URLClassLoader.findClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 28 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="seekerlogin" duration-ms="0" started-at="2022-09-22T20:55:44Z" data-provider="seekerdata" finished-at="2022-09-22T20:55:44Z">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: desiredCapabilities=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: desiredCapabilities=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at core.Page.openBrowser(Page.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seekerlogin -->
+        <test-method status="SKIP" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="openBrowser" is-config="true" duration-ms="0" started-at="2022-09-22T20:55:44Z" finished-at="2022-09-22T20:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="seekerlogin" duration-ms="0" started-at="2022-09-22T20:55:44Z" data-provider="seekerdata" finished-at="2022-09-22T20:55:44Z">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: desiredCapabilities=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: desiredCapabilities=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at core.Page.openBrowser(Page.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seekerlogin -->
+        <test-method status="SKIP" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="openBrowser" is-config="true" duration-ms="0" started-at="2022-09-22T20:55:44Z" finished-at="2022-09-22T20:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="seekerlogin" duration-ms="0" started-at="2022-09-22T20:55:44Z" data-provider="seekerdata" finished-at="2022-09-22T20:55:44Z">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: desiredCapabilities=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: desiredCapabilities=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at core.Page.openBrowser(Page.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seekerlogin -->
+        <test-method status="SKIP" signature="endReport(java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="endReport" is-config="true" duration-ms="0" started-at="2022-09-22T20:55:44Z" finished-at="2022-09-22T20:55:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
