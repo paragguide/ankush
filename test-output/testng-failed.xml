@@ -8,14 +8,14 @@
     <parameter name="xpathfile" value="providerxpath.properties"/>
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="http://www.nethorizonconsultancy.com/provider.aspx"/>
-    <parameter name="key" value="true"/>
+    <parameter name="key" value="false"/>
     <classes>
       <class name="testcases.ProviderLoginTest">
         <methods>
           <include name="getexternalxpath"/>
           <include name="endReport"/>
           <include name="openBrowser"/>
-          <include name="providerlogin" invocation-numbers="1"/>
+          <include name="providerlogin"/>
           <include name="createReport"/>
           <include name="closeBrowser"/>
         </methods>

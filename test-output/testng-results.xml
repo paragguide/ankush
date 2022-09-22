@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="6" passed="5">
+<testng-results skipped="3" failed="0" ignored="0" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="35981" started-at="2022-08-08T16:00:33Z" finished-at="2022-08-08T16:01:09Z">
+  <suite name="Suite" duration-ms="22506" started-at="2022-09-17T14:41:27Z" finished-at="2022-09-17T14:41:49Z">
     <groups>
     </groups>
-    <test name="ProviderTest" duration-ms="19889" started-at="2022-08-08T16:00:33Z" finished-at="2022-08-08T16:00:53Z">
+    <test name="ProviderTest" duration-ms="1010" started-at="2022-09-17T14:41:27Z" finished-at="2022-09-17T14:41:28Z">
       <class name="testcases.ProviderLoginTest">
-        <test-method status="PASS" signature="createReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="createReport" is-config="true" duration-ms="273" started-at="2022-08-08T21:30:33Z" finished-at="2022-08-08T21:30:33Z">
+        <test-method status="SKIP" signature="createReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="createReport" is-config="true" duration-ms="26" started-at="2022-09-17T20:11:27Z" finished-at="2022-09-17T20:11:27Z">
           <params>
             <param index="0">
               <value>
@@ -16,106 +16,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createReport -->
-        <test-method status="PASS" signature="getexternalxpath(java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="getexternalxpath" is-config="true" duration-ms="1" started-at="2022-08-08T21:30:33Z" finished-at="2022-08-08T21:30:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[providerxpath.properties]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getexternalxpath -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="openBrowser" is-config="true" duration-ms="6233" started-at="2022-08-08T21:30:34Z" finished-at="2022-08-08T21:30:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://www.nethorizonconsultancy.com/provider.aspx]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Provider]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="providerlogin" duration-ms="538" started-at="2022-08-08T21:30:40Z" data-provider="logindata" finished-at="2022-08-08T21:30:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[parag]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[saxena]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- providerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="closeBrowser" is-config="true" duration-ms="682" started-at="2022-08-08T21:30:41Z" finished-at="2022-08-08T21:30:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="openBrowser" is-config="true" duration-ms="4820" started-at="2022-08-08T21:30:41Z" finished-at="2022-08-08T21:30:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://www.nethorizonconsultancy.com/provider.aspx]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Provider]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="providerlogin" duration-ms="2" started-at="2022-08-08T21:30:46Z" data-provider="logindata" finished-at="2022-08-08T21:30:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[amit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[taneja]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[FALSE]]>
+                <![CDATA[false]]>
               </value>
             </param>
           </params>
@@ -125,19 +26,17 @@
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Skipping tests because resource was not available.
-	at testcases.ProviderLoginTest.providerlogin(ProviderLoginTest.java:21)
+	at core.Page.createReport(Page.java:126)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
@@ -156,12 +55,71 @@
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- providerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="closeBrowser" is-config="true" duration-ms="788" started-at="2022-08-08T21:30:46Z" finished-at="2022-08-08T21:30:47Z">
+        </test-method> <!-- createReport -->
+        <test-method status="SKIP" signature="getexternalxpath(java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="getexternalxpath" is-config="true" duration-ms="0" started-at="2022-09-17T20:11:27Z" finished-at="2022-09-17T20:11:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="openBrowser" is-config="true" duration-ms="4313" started-at="2022-08-08T21:30:47Z" finished-at="2022-08-08T21:30:51Z">
+        </test-method> <!-- getexternalxpath -->
+        <test-method status="SKIP" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="openBrowser" is-config="true" duration-ms="0" started-at="2022-09-17T20:11:28Z" finished-at="2022-09-17T20:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="providerlogin" duration-ms="10" started-at="2022-09-17T20:11:28Z" data-provider="logindata" finished-at="2022-09-17T20:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- providerlogin -->
+        <test-method status="SKIP" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="openBrowser" is-config="true" duration-ms="0" started-at="2022-09-17T20:11:28Z" finished-at="2022-09-17T20:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="providerlogin" duration-ms="0" started-at="2022-09-17T20:11:28Z" data-provider="logindata" finished-at="2022-09-17T20:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- providerlogin -->
+        <test-method status="SKIP" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="openBrowser" is-config="true" duration-ms="0" started-at="2022-09-17T20:11:28Z" finished-at="2022-09-17T20:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="providerlogin" duration-ms="0" started-at="2022-09-17T20:11:28Z" data-provider="logindata" finished-at="2022-09-17T20:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- providerlogin -->
+        <test-method status="SKIP" signature="endReport(java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@53b32d7]" name="endReport" is-config="true" duration-ms="0" started-at="2022-09-17T20:11:28Z" finished-at="2022-09-17T20:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.ProviderLoginTest -->
+    </test> <!-- ProviderTest -->
+    <test name="SeekerTest" duration-ms="21337" started-at="2022-09-17T14:41:28Z" finished-at="2022-09-17T14:41:49Z">
+      <class name="testcases.SeekerLoginTest">
+        <test-method status="PASS" signature="createReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="createReport" is-config="true" duration-ms="417" started-at="2022-09-17T20:11:28Z" finished-at="2022-09-17T20:11:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SeekerLog]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method status="PASS" signature="getexternalxpath(java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="getexternalxpath" is-config="true" duration-ms="1" started-at="2022-09-17T20:11:29Z" finished-at="2022-09-17T20:11:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seekerxpath.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getexternalxpath -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="openBrowser" is-config="true" duration-ms="6975" started-at="2022-09-17T20:11:29Z" finished-at="2022-09-17T20:11:36Z">
           <params>
             <param index="0">
               <value>
@@ -170,48 +128,125 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[http://www.nethorizonconsultancy.com/provider.aspx]]>
+                <![CDATA[http://www.nethorizonconsultancy.com/Seeker.aspx]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Provider]]>
+                <![CDATA[Seeker]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="providerlogin" duration-ms="568" started-at="2022-08-08T21:30:51Z" data-provider="logindata" finished-at="2022-08-08T21:30:52Z">
+        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="seekerlogin" duration-ms="1008" started-at="2022-09-17T20:11:36Z" data-provider="seekerdata" finished-at="2022-09-17T20:11:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ravi]]>
+                <![CDATA[aaa]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[kumar]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
+                <![CDATA[aa@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- providerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="closeBrowser" is-config="true" duration-ms="755" started-at="2022-08-08T21:30:52Z" finished-at="2022-08-08T21:30:52Z">
+        </test-method> <!-- seekerlogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="closeBrowser" is-config="true" duration-ms="165" started-at="2022-09-17T20:11:37Z" finished-at="2022-09-17T20:11:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="FAIL" signature="endReport(java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="endReport" is-config="true" duration-ms="408" started-at="2022-08-08T21:30:52Z" finished-at="2022-08-08T21:30:53Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="openBrowser" is-config="true" duration-ms="5610" started-at="2022-09-17T20:11:37Z" finished-at="2022-09-17T20:11:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ProviderLog.html]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.nethorizonconsultancy.com/Seeker.aspx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Seeker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="seekerlogin" duration-ms="534" started-at="2022-09-17T20:11:42Z" data-provider="seekerdata" finished-at="2022-09-17T20:11:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bb@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seekerlogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="closeBrowser" is-config="true" duration-ms="164" started-at="2022-09-17T20:11:43Z" finished-at="2022-09-17T20:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="openBrowser" is-config="true" duration-ms="5228" started-at="2022-09-17T20:11:43Z" finished-at="2022-09-17T20:11:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.nethorizonconsultancy.com/Seeker.aspx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Seeker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="seekerlogin" duration-ms="452" started-at="2022-09-17T20:11:48Z" data-provider="seekerdata" finished-at="2022-09-17T20:11:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ccc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cc@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seekerlogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="closeBrowser" is-config="true" duration-ms="122" started-at="2022-09-17T20:11:49Z" finished-at="2022-09-17T20:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="FAIL" signature="endReport(java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@7085bdee]" name="endReport" is-config="true" duration-ms="626" started-at="2022-09-17T20:11:49Z" finished-at="2022-09-17T20:11:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SeekerLog.html]]>
               </value>
             </param>
           </params>
@@ -225,7 +260,7 @@
 	at javax.mail.Session.<init>(Session.java:245)
 	at javax.mail.Session.getDefaultInstance(Session.java:356)
 	at utility.monitoringMail.sendMail(monitoringMail.java:44)
-	at core.Page.endReport(Page.java:145)
+	at core.Page.endReport(Page.java:159)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -255,208 +290,6 @@ Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
 	at java.lang.ClassLoader.loadClass(Unknown Source)
 	... 28 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoClassDefFoundError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- testcases.ProviderLoginTest -->
-    </test> <!-- ProviderTest -->
-    <test name="SeekerTest" duration-ms="16059" started-at="2022-08-08T16:00:53Z" finished-at="2022-08-08T16:01:09Z">
-      <class name="testcases.SeekerLoginTest">
-        <test-method status="PASS" signature="createReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="createReport" is-config="true" duration-ms="7" started-at="2022-08-08T21:30:53Z" finished-at="2022-08-08T21:30:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SeekerLog]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createReport -->
-        <test-method status="PASS" signature="getexternalxpath(java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="getexternalxpath" is-config="true" duration-ms="1" started-at="2022-08-08T21:30:53Z" finished-at="2022-08-08T21:30:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[seekerxpath.properties]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getexternalxpath -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="openBrowser" is-config="true" duration-ms="3888" started-at="2022-08-08T21:30:53Z" finished-at="2022-08-08T21:30:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://www.nethorizonconsultancy.com/Seeker.aspx]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Seeker]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="seekerlogin" duration-ms="380" started-at="2022-08-08T21:30:57Z" data-provider="seekerdata" finished-at="2022-08-08T21:30:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aaa]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[aa@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- seekerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="closeBrowser" is-config="true" duration-ms="786" started-at="2022-08-08T21:30:57Z" finished-at="2022-08-08T21:30:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="openBrowser" is-config="true" duration-ms="4236" started-at="2022-08-08T21:30:58Z" finished-at="2022-08-08T21:31:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://www.nethorizonconsultancy.com/Seeker.aspx]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Seeker]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="seekerlogin" duration-ms="392" started-at="2022-08-08T21:31:02Z" data-provider="seekerdata" finished-at="2022-08-08T21:31:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bbb]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bb@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- seekerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="closeBrowser" is-config="true" duration-ms="809" started-at="2022-08-08T21:31:03Z" finished-at="2022-08-08T21:31:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="openBrowser" is-config="true" duration-ms="4182" started-at="2022-08-08T21:31:03Z" finished-at="2022-08-08T21:31:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://www.nethorizonconsultancy.com/Seeker.aspx]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Seeker]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="seekerlogin" duration-ms="414" started-at="2022-08-08T21:31:08Z" data-provider="seekerdata" finished-at="2022-08-08T21:31:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ccc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[cc@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- seekerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="closeBrowser" is-config="true" duration-ms="802" started-at="2022-08-08T21:31:08Z" finished-at="2022-08-08T21:31:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="FAIL" signature="endReport(java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="endReport" is-config="true" duration-ms="119" started-at="2022-08-08T21:31:09Z" finished-at="2022-08-08T21:31:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SeekerLog.html]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NoClassDefFoundError">
-            <message>
-              <![CDATA[com/sun/mail/util/MailLogger]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
-	at javax.mail.Session.initLogger(Session.java:261)
-	at javax.mail.Session.<init>(Session.java:245)
-	at javax.mail.Session.getDefaultInstance(Session.java:356)
-	at utility.monitoringMail.sendMail(monitoringMail.java:44)
-	at core.Page.endReport(Page.java:145)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.TestRunner.afterRun(TestRunner.java:958)
-	at org.testng.TestRunner.run(TestRunner.java:606)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NoClassDefFoundError -->

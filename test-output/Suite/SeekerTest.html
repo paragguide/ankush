@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 08 21:30:53 IST 2022</td>
+<td>Started on:</td><td>Sat Sep 17 20:11:28 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>16 seconds (16059 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21337 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -81,14 +81,20 @@ function toggleAllBoxes() {
 	at javax.mail.Session.&lt;init&gt;(Session.java:245)
 	at javax.mail.Session.getDefaultInstance(Session.java:356)
 	at utility.monitoringMail.sendMail(monitoringMail.java:44)
-	at core.Page.endReport(Page.java:145)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1973256691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1973256691'><pre>java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
+	at core.Page.endReport(Page.java:159)
+Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace254918854", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace254918854'><pre>java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
 	at javax.mail.Session.initLogger(Session.java:261)
 	at javax.mail.Session.&lt;init&gt;(Session.java:245)
 	at javax.mail.Session.getDefaultInstance(Session.java:356)
 	at utility.monitoringMail.sendMail(monitoringMail.java:44)
-	at core.Page.endReport(Page.java:145)
+	at core.Page.endReport(Page.java:159)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -112,9 +118,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
 </pre></div></td>
 <td>0</td>
-<td>testcases.SeekerLoginTest@3fee9989</td></tr>
+<td>testcases.SeekerLoginTest@7085bdee</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -126,18 +138,18 @@ function toggleAllBoxes() {
 <tr>
 <td title='testcases.SeekerLoginTest.seekerlogin()'><b>seekerlogin</b><br>Test class: testcases.SeekerLoginTest<br>Parameters: aaa, aa@gmail.com</td>
 <td></td>
-<td>0</td>
-<td>testcases.SeekerLoginTest@3fee9989</td></tr>
+<td>1</td>
+<td>testcases.SeekerLoginTest@7085bdee</td></tr>
 <tr>
 <td title='testcases.SeekerLoginTest.seekerlogin()'><b>seekerlogin</b><br>Test class: testcases.SeekerLoginTest<br>Parameters: bbb, bb@gmail.com</td>
 <td></td>
 <td>0</td>
-<td>testcases.SeekerLoginTest@3fee9989</td></tr>
+<td>testcases.SeekerLoginTest@7085bdee</td></tr>
 <tr>
 <td title='testcases.SeekerLoginTest.seekerlogin()'><b>seekerlogin</b><br>Test class: testcases.SeekerLoginTest<br>Parameters: ccc, cc@gmail.com</td>
 <td></td>
 <td>0</td>
-<td>testcases.SeekerLoginTest@3fee9989</td></tr>
+<td>testcases.SeekerLoginTest@7085bdee</td></tr>
 </table><p>
 </body>
 </html>
