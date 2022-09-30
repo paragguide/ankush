@@ -39,7 +39,7 @@ import org.testng.annotations.AfterTest;
 public class Page 
    {
 	public WebDriver driver = null;  // global variable
-	DesiredCapabilities capability = null;
+	
 	public ExtentTest test=null;
 	public ExtentReports report=null;
 	public Logger log  = null;
@@ -55,7 +55,7 @@ public class Page
 			System.setProperty("webdriver.gecko.driver", "D:\\browserdrivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			
-			// capability =	DesiredCapabilities.firefox();
+			
 		}
 		else if(browser.equals("chrome"))
 		{
@@ -63,14 +63,7 @@ public class Page
 			System.setProperty("webdriver.chrome.driver","D:\\browserdrivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			
-		//	DesiredCapabilities capability= DesiredCapabilities.chrome();
-
-			try {
-				 driver=new RemoteWebDriver(new URL("http://192.168.1.7:5566/wd/hub"),capability);
-			} catch (MalformedURLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}  // -> ip adr / name of client (node) mach name
+		
 
 			
 		}

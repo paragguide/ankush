@@ -10,7 +10,7 @@
    <parameter name="url" value="http://www.nethorizonconsultancy.com/provider.aspx" />
    <parameter name="screenshotname" value="Provider" />
    <parameter name="filename" value="ProviderLog.html" />
-   <parameter name="key" value="false" />
+   <parameter name="key" value="true" />
     <classes>
       <class name="testcases.ProviderLoginTest"/>
     </classes>

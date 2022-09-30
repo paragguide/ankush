@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>SeekerTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/3</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Sep 22 20:55:25 IST 2022</td>
+<td>Started on:</td><td>Mon Sep 26 09:20:50 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19370 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18397 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,26 +75,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.SeekerLoginTest.openBrowser()'><b>openBrowser</b><br>Test class: testcases.SeekerLoginTest<br>Parameters: chrome, http://www.nethorizonconsultancy.com/Seeker.aspx, Seeker</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: desiredCapabilities=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at core.Page.openBrowser(Page.java:69)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1422273905", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1422273905'><pre>java.lang.NullPointerException: null value in entry: desiredCapabilities=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at core.Page.openBrowser(Page.java:69)
+<td title='testcases.SeekerLoginTest.endReport()'><b>endReport</b><br>Test class: testcases.SeekerLoginTest<br>Parameters: SeekerLog.html</td>
+<td><div><pre>java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
+	at javax.mail.Session.initLogger(Session.java:261)
+	at javax.mail.Session.&lt;init&gt;(Session.java:245)
+	at javax.mail.Session.getDefaultInstance(Session.java:356)
+	at utility.monitoringMail.sendMail(monitoringMail.java:44)
+	at core.Page.endReport(Page.java:154)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1973256691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1973256691'><pre>java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
+	at javax.mail.Session.initLogger(Session.java:261)
+	at javax.mail.Session.&lt;init&gt;(Session.java:245)
+	at javax.mail.Session.getDefaultInstance(Session.java:356)
+	at utility.monitoringMail.sendMail(monitoringMail.java:44)
+	at core.Page.endReport(Page.java:154)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -102,13 +96,9 @@ function toggleAllBoxes() {
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.afterRun(TestRunner.java:958)
+	at org.testng.TestRunner.run(TestRunner.java:606)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
@@ -123,192 +113,31 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
-<td>19</td>
-<td>testcases.SeekerLoginTest@7085bdee</td></tr>
+<td>0</td>
+<td>testcases.SeekerLoginTest@3fee9989</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.SeekerLoginTest.openBrowser()'><b>openBrowser</b><br>Test class: testcases.SeekerLoginTest</td>
+<td title='testcases.SeekerLoginTest.seekerlogin()'><b>seekerlogin</b><br>Test class: testcases.SeekerLoginTest<br>Parameters: aaa, aa@gmail.com</td>
 <td></td>
 <td>0</td>
-<td>testcases.SeekerLoginTest@7085bdee</td></tr>
+<td>testcases.SeekerLoginTest@3fee9989</td></tr>
 <tr>
-<td title='testcases.SeekerLoginTest.openBrowser()'><b>openBrowser</b><br>Test class: testcases.SeekerLoginTest</td>
+<td title='testcases.SeekerLoginTest.seekerlogin()'><b>seekerlogin</b><br>Test class: testcases.SeekerLoginTest<br>Parameters: bbb, bb@gmail.com</td>
 <td></td>
 <td>0</td>
-<td>testcases.SeekerLoginTest@7085bdee</td></tr>
+<td>testcases.SeekerLoginTest@3fee9989</td></tr>
 <tr>
-<td title='testcases.SeekerLoginTest.endReport()'><b>endReport</b><br>Test class: testcases.SeekerLoginTest</td>
+<td title='testcases.SeekerLoginTest.seekerlogin()'><b>seekerlogin</b><br>Test class: testcases.SeekerLoginTest<br>Parameters: ccc, cc@gmail.com</td>
 <td></td>
 <td>0</td>
-<td>testcases.SeekerLoginTest@7085bdee</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testcases.SeekerLoginTest.seekerlogin()'><b>seekerlogin</b><br>Test class: testcases.SeekerLoginTest</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: desiredCapabilities=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at core.Page.openBrowser(Page.java:69)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1694784135", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1694784135'><pre>java.lang.NullPointerException: null value in entry: desiredCapabilities=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at core.Page.openBrowser(Page.java:69)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div></td>
-<td>0</td>
-<td>testcases.SeekerLoginTest@7085bdee</td></tr>
-<tr>
-<td title='testcases.SeekerLoginTest.seekerlogin()'><b>seekerlogin</b><br>Test class: testcases.SeekerLoginTest</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: desiredCapabilities=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at core.Page.openBrowser(Page.java:69)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace756936249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace756936249'><pre>java.lang.NullPointerException: null value in entry: desiredCapabilities=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at core.Page.openBrowser(Page.java:69)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div></td>
-<td>0</td>
-<td>testcases.SeekerLoginTest@7085bdee</td></tr>
-<tr>
-<td title='testcases.SeekerLoginTest.seekerlogin()'><b>seekerlogin</b><br>Test class: testcases.SeekerLoginTest</td>
-<td><div><pre>java.lang.NullPointerException: null value in entry: desiredCapabilities=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at core.Page.openBrowser(Page.java:69)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace264394929", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace264394929'><pre>java.lang.NullPointerException: null value in entry: desiredCapabilities=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:211)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at core.Page.openBrowser(Page.java:69)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div></td>
-<td>0</td>
-<td>testcases.SeekerLoginTest@7085bdee</td></tr>
+<td>testcases.SeekerLoginTest@3fee9989</td></tr>
 </table><p>
 </body>
 </html>
