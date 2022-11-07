@@ -15,11 +15,32 @@
           <include name="getexternalxpath"/>
           <include name="endReport"/>
           <include name="openBrowser"/>
-          <include name="providerlogin" invocation-numbers="1"/>
+          <include name="providerlogin"/>
           <include name="createReport"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- testcases.ProviderLoginTest -->
     </classes>
   </test> <!-- ProviderTest(failed) -->
+  <test name="SeekerTest(failed)">
+    <parameter name="screenshotname" value="Seeker"/>
+    <parameter name="filename" value="SeekerLog.html"/>
+    <parameter name="reportname" value="SeekerLog"/>
+    <parameter name="xpathfile" value="seekerxpath.properties"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.nethorizonconsultancy.com/Seeker.aspx"/>
+    <parameter name="key" value="true"/>
+    <classes>
+      <class name="testcases.SeekerLoginTest">
+        <methods>
+          <include name="getexternalxpath"/>
+          <include name="endReport"/>
+          <include name="openBrowser"/>
+          <include name="createReport"/>
+          <include name="seekerlogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcases.SeekerLoginTest -->
+    </classes>
+  </test> <!-- SeekerTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
