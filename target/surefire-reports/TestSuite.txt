@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 20.236 s <<< FAILURE! - in TestSuite
+testcases.ProviderLoginTest.providerlogin  Time elapsed: 1.945 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void testcases.ProviderLoginTest.providerlogin(java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: providerlogin([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) parag,(java.lang.String) saxena]
+
+testcases.ProviderLoginTest.endReport  Time elapsed: 2.489 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
+Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
+
+testcases.SeekerLoginTest.endReport  Time elapsed: 1.089 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/sun/mail/util/MailLogger
+

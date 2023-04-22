@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="41828" started-at="2023-02-22T14:42:10Z" finished-at="2023-02-22T14:42:51Z">
+  <suite name="Suite" duration-ms="44082" started-at="2023-03-24T02:13:52Z" finished-at="2023-03-24T02:14:36Z">
     <groups>
     </groups>
-    <test name="ProviderTest" duration-ms="23321" started-at="2023-02-22T14:42:10Z" finished-at="2023-02-22T14:42:33Z">
+    <test name="ProviderTest" duration-ms="25447" started-at="2023-03-24T02:13:52Z" finished-at="2023-03-24T02:14:18Z">
       <class name="testcases.ProviderLoginTest">
-        <test-method status="PASS" signature="createReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="createReport" is-config="true" duration-ms="322" started-at="2023-02-22T20:12:10Z" finished-at="2023-02-22T20:12:10Z">
+        <test-method status="PASS" signature="createReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="createReport" is-config="true" duration-ms="409" started-at="2023-03-24T07:43:52Z" finished-at="2023-03-24T07:43:53Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method status="PASS" signature="getexternalxpath(java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="getexternalxpath" is-config="true" duration-ms="1" started-at="2023-02-22T20:12:10Z" finished-at="2023-02-22T20:12:10Z">
+        <test-method status="PASS" signature="getexternalxpath(java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="getexternalxpath" is-config="true" duration-ms="1" started-at="2023-03-24T07:43:53Z" finished-at="2023-03-24T07:43:53Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getexternalxpath -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="openBrowser" is-config="true" duration-ms="8966" started-at="2023-02-22T20:12:11Z" finished-at="2023-02-22T20:12:20Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="openBrowser" is-config="true" duration-ms="8086" started-at="2023-03-24T07:43:54Z" finished-at="2023-03-24T07:44:02Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="providerlogin" duration-ms="831" started-at="2023-02-22T20:12:20Z" data-provider="logindata" finished-at="2023-02-22T20:12:20Z">
+        <test-method status="PASS" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="providerlogin" duration-ms="1152" started-at="2023-03-24T07:44:02Z" data-provider="logindata" finished-at="2023-03-24T07:44:03Z">
           <params>
             <param index="0">
               <value>
@@ -76,11 +76,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- providerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="closeBrowser" is-config="true" duration-ms="865" started-at="2023-02-22T20:12:20Z" finished-at="2023-02-22T20:12:21Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="closeBrowser" is-config="true" duration-ms="1352" started-at="2023-03-24T07:44:03Z" finished-at="2023-03-24T07:44:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="openBrowser" is-config="true" duration-ms="4685" started-at="2023-02-22T20:12:21Z" finished-at="2023-02-22T20:12:26Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="openBrowser" is-config="true" duration-ms="5578" started-at="2023-03-24T07:44:04Z" finished-at="2023-03-24T07:44:10Z">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="providerlogin" duration-ms="2" started-at="2023-02-22T20:12:26Z" data-provider="logindata" finished-at="2023-02-22T20:12:26Z">
+        <test-method status="SKIP" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="providerlogin" duration-ms="2" started-at="2023-03-24T07:44:10Z" data-provider="logindata" finished-at="2023-03-24T07:44:10Z">
           <params>
             <param index="0">
               <value>
@@ -157,11 +157,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- providerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="closeBrowser" is-config="true" duration-ms="654" started-at="2023-02-22T20:12:26Z" finished-at="2023-02-22T20:12:27Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="closeBrowser" is-config="true" duration-ms="612" started-at="2023-03-24T07:44:10Z" finished-at="2023-03-24T07:44:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="openBrowser" is-config="true" duration-ms="4664" started-at="2023-02-22T20:12:27Z" finished-at="2023-02-22T20:12:31Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="openBrowser" is-config="true" duration-ms="5754" started-at="2023-03-24T07:44:10Z" finished-at="2023-03-24T07:44:16Z">
           <params>
             <param index="0">
               <value>
@@ -182,7 +182,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="providerlogin" duration-ms="480" started-at="2023-02-22T20:12:31Z" data-provider="logindata" finished-at="2023-02-22T20:12:32Z">
+        <test-method status="PASS" signature="providerlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="providerlogin" duration-ms="313" started-at="2023-03-24T07:44:16Z" data-provider="logindata" finished-at="2023-03-24T07:44:17Z">
           <params>
             <param index="0">
               <value>
@@ -203,11 +203,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- providerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="closeBrowser" is-config="true" duration-ms="699" started-at="2023-02-22T20:12:32Z" finished-at="2023-02-22T20:12:32Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="closeBrowser" is-config="true" duration-ms="619" started-at="2023-03-24T07:44:17Z" finished-at="2023-03-24T07:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="FAIL" signature="endReport(java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="endReport" is-config="true" duration-ms="464" started-at="2023-02-22T20:12:32Z" finished-at="2023-02-22T20:12:33Z">
+        <test-method status="FAIL" signature="endReport(java.lang.String)[pri:0, instance:testcases.ProviderLoginTest@57baeedf]" name="endReport" is-config="true" duration-ms="462" started-at="2023-03-24T07:44:17Z" finished-at="2023-03-24T07:44:18Z">
           <params>
             <param index="0">
               <value>
@@ -263,9 +263,9 @@ Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
         </test-method> <!-- endReport -->
       </class> <!-- testcases.ProviderLoginTest -->
     </test> <!-- ProviderTest -->
-    <test name="SeekerTest" duration-ms="18339" started-at="2023-02-22T14:42:33Z" finished-at="2023-02-22T14:42:51Z">
+    <test name="SeekerTest" duration-ms="18486" started-at="2023-03-24T02:14:18Z" finished-at="2023-03-24T02:14:36Z">
       <class name="testcases.SeekerLoginTest">
-        <test-method status="PASS" signature="createReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="createReport" is-config="true" duration-ms="9" started-at="2023-02-22T20:12:33Z" finished-at="2023-02-22T20:12:33Z">
+        <test-method status="PASS" signature="createReport(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="createReport" is-config="true" duration-ms="8" started-at="2023-03-24T07:44:18Z" finished-at="2023-03-24T07:44:18Z">
           <params>
             <param index="0">
               <value>
@@ -281,7 +281,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method status="PASS" signature="getexternalxpath(java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="getexternalxpath" is-config="true" duration-ms="1" started-at="2023-02-22T20:12:33Z" finished-at="2023-02-22T20:12:33Z">
+        <test-method status="PASS" signature="getexternalxpath(java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="getexternalxpath" is-config="true" duration-ms="1" started-at="2023-03-24T07:44:18Z" finished-at="2023-03-24T07:44:18Z">
           <params>
             <param index="0">
               <value>
@@ -292,7 +292,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getexternalxpath -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="openBrowser" is-config="true" duration-ms="5108" started-at="2023-02-22T20:12:33Z" finished-at="2023-02-22T20:12:38Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="openBrowser" is-config="true" duration-ms="5453" started-at="2023-03-24T07:44:18Z" finished-at="2023-03-24T07:44:23Z">
           <params>
             <param index="0">
               <value>
@@ -313,7 +313,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="seekerlogin" duration-ms="380" started-at="2023-02-22T20:12:38Z" data-provider="seekerdata" finished-at="2023-02-22T20:12:39Z">
+        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="seekerlogin" duration-ms="347" started-at="2023-03-24T07:44:23Z" data-provider="seekerdata" finished-at="2023-03-24T07:44:24Z">
           <params>
             <param index="0">
               <value>
@@ -329,11 +329,11 @@ Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seekerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="closeBrowser" is-config="true" duration-ms="667" started-at="2023-02-22T20:12:39Z" finished-at="2023-02-22T20:12:39Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="closeBrowser" is-config="true" duration-ms="703" started-at="2023-03-24T07:44:24Z" finished-at="2023-03-24T07:44:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="openBrowser" is-config="true" duration-ms="4954" started-at="2023-02-22T20:12:39Z" finished-at="2023-02-22T20:12:44Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="openBrowser" is-config="true" duration-ms="4888" started-at="2023-03-24T07:44:24Z" finished-at="2023-03-24T07:44:29Z">
           <params>
             <param index="0">
               <value>
@@ -354,7 +354,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="seekerlogin" duration-ms="360" started-at="2023-02-22T20:12:44Z" data-provider="seekerdata" finished-at="2023-02-22T20:12:45Z">
+        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="seekerlogin" duration-ms="403" started-at="2023-03-24T07:44:29Z" data-provider="seekerdata" finished-at="2023-03-24T07:44:30Z">
           <params>
             <param index="0">
               <value>
@@ -370,11 +370,11 @@ Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seekerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="closeBrowser" is-config="true" duration-ms="682" started-at="2023-02-22T20:12:45Z" finished-at="2023-02-22T20:12:45Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="closeBrowser" is-config="true" duration-ms="675" started-at="2023-03-24T07:44:30Z" finished-at="2023-03-24T07:44:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="openBrowser" is-config="true" duration-ms="4973" started-at="2023-02-22T20:12:45Z" finished-at="2023-02-22T20:12:50Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="openBrowser" is-config="true" duration-ms="4952" started-at="2023-03-24T07:44:30Z" finished-at="2023-03-24T07:44:35Z">
           <params>
             <param index="0">
               <value>
@@ -395,7 +395,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="seekerlogin" duration-ms="416" started-at="2023-02-22T20:12:50Z" data-provider="seekerdata" finished-at="2023-02-22T20:12:51Z">
+        <test-method status="PASS" signature="seekerlogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="seekerlogin" duration-ms="333" started-at="2023-03-24T07:44:35Z" data-provider="seekerdata" finished-at="2023-03-24T07:44:36Z">
           <params>
             <param index="0">
               <value>
@@ -411,11 +411,11 @@ Caused by: java.lang.ClassNotFoundException: com.sun.mail.util.MailLogger
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seekerlogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="closeBrowser" is-config="true" duration-ms="684" started-at="2023-02-22T20:12:51Z" finished-at="2023-02-22T20:12:51Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="closeBrowser" is-config="true" duration-ms="646" started-at="2023-03-24T07:44:36Z" finished-at="2023-03-24T07:44:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="FAIL" signature="endReport(java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="endReport" is-config="true" duration-ms="74" started-at="2023-02-22T20:12:51Z" finished-at="2023-02-22T20:12:51Z">
+        <test-method status="FAIL" signature="endReport(java.lang.String)[pri:0, instance:testcases.SeekerLoginTest@3fee9989]" name="endReport" is-config="true" duration-ms="51" started-at="2023-03-24T07:44:36Z" finished-at="2023-03-24T07:44:36Z">
           <params>
             <param index="0">
               <value>
